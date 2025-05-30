@@ -228,4 +228,3 @@ st.markdown(
 """
 )
 
-st.caption("Farben sind konsistent: Maxi ‑ Orange, Fabi ‑ Blau, Julian ‑ Grün.  |  Mittelwert‑Marker = rot")
