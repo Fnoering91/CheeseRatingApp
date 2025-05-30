@@ -33,7 +33,7 @@ df["Mittelwert"] = df[persons].mean(axis=1)
 #############################################
 # 1) RATING PLOT  (Hochkant / Smartphone)   #
 #############################################
-st.header("Alle Bewertungen – hochkant")
+st.header("Alle Bewertungen")
 
 # Wrap long cheese names into two lines max 30 chars each
 wrapped_names = ["<br>".join(textwrap.wrap(name, width=30)) for name in df["Käse"]]
