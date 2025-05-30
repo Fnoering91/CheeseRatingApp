@@ -49,7 +49,7 @@ CHEESE_INFO = {
         "url": "https://shop.rewe.de/p/brie-de-meaux-senf/9107555",
         "price": "2,99 € / 100 g"
     },
-    "Frischkäse Gärtnerin Art": 
+    "Frischkäse Gärtnerin Art": {
         "img": "https://produkte.globus.de/images/2/9/1/4/6/5/291465/291465_m.jpg",
         "url": "https://produkte.globus.de/wurst-kaese/kaesetheke/frischkaese/291465/frischkaese-gaertnerin",
         "price": "ca. 1,99 € / 100 g"
