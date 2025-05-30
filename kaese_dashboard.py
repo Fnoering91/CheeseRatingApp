@@ -191,8 +191,7 @@ for idx, person in enumerate(persons):
         info = CHEESE_INFO.get(cheese, {})
         link = info.get("url", "#")
         price = info.get("price", "k. A.")
-        col.markdown(f"**{rank+1}. [{cheese}]({link})** – {rating}/10  
-Preis: {price}")
+        col.markdown(f"**{rank+1}. [{cheese}]({link})** – {rating}/10  Preis: {price}")
 
 #############################################
 # 6) Fazit                                  #
