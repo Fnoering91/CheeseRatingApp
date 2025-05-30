@@ -208,7 +208,6 @@ for idx, person in enumerate(persons):
         price = info.get("price", "Preis n. a.")
         if img:
             col.image(img, use_column_width=True)
-        col.markdown(f"**{i+1}. [{cheese}]({url if url else '#'})** – {rating}/10  
-Preis: {price}")
+        col.markdown(f"**{i+1}. [{cheese}]({url if url else '#'})** – {rating}/10  Preis: {price}")
 
 st.caption("Farben sind konsistent: Maxi ‑ Orange, Fabi ‑ Blau, Julian ‑ Grün.")
